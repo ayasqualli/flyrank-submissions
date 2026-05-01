@@ -2,7 +2,7 @@ When a request includes the `Authorization` header, the server assumes the respo
 
 If the response doesn't include that header, the application must explicitly define it as private using the response header below. This prevents accidental reuse of sensitive data across users.
 
-![[Pasted image 20251130134441.png]]
+![[../Attachements/Pasted image 20251130134441.png]]
 
 When the `Cache-Control: header` is set to `private`, this directiove ensures the response stays in private cache (like the browser) and doesn't go to shared caches.
 

@@ -1,4 +1,4 @@
-![[Screenshot 2025-11-30 201952.png]]
+![[../Attachements/Screenshot 2025-11-30 201952.png]]
 Solve script: 
 ```python
 #!/bin/env python3

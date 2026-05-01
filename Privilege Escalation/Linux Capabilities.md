@@ -7,7 +7,7 @@ find /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin -type f -exec getcap {} \
 ```
 
 ### Exploitation
-![[Pasted image 20260109194206.png]]
+![[../Attachements/Pasted image 20260109194206.png]]
 
 Linux capabilities are a security feature in the Linux operating system that allows specific privileges to be granted to processes, allowing them to perform specific actions that would otherwise be restricted. This allows for more fine-grained control over which processes have access to certain privileges, making it more secure than the traditional Unix model of granting privileges to users and groups.
 
@@ -23,8 +23,8 @@ When capabilities are set for a binary, it means that the binary will be able to
 
 Some capabilities, such as `cap_sys_admin`, which allows an executable to perform actions with administrative privileges, can be dangerous if they are not used properly. For example, we could exploit them to escalate their privileges, gain access to sensitive information, or perform unauthorized actions. Therefore, it is crucial to set these types of capabilities for properly sandboxed and isolated executables and avoid granting them unnecessarily.
 
-![[Pasted image 20260109193924.png]]
+![[../Attachements/Pasted image 20260109193924.png]]
 
 
 ### Privilege Escalation: 
-![[Pasted image 20260109194019.png]]
+![[../Attachements/Pasted image 20260109194019.png]]

@@ -1,5 +1,5 @@
 Blacklist:
-![[Pasted image 20251231043951.png]]
+![[../Attachements/Pasted image 20251231043951.png]]
 
 
 Solution: 
