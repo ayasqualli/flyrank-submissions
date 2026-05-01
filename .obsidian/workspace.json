@@ -4,39 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "427204c9c89f435a",
+        "id": "df7bf14c13d759a4",
         "type": "tabs",
         "children": [
           {
-            "id": "c622d0480b36536c",
+            "id": "ff24853386d50291",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random/XML External Entity Attack Payload.md",
+                "file": "Random/Brute Forcing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XML External Entity Attack Payload"
+              "title": "Brute Forcing"
             }
           },
           {
-            "id": "f6306ca644c36ba4",
+            "id": "3aa727a65bc8f47b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random/PHP Unserialization for RCE - POP Restaurant HTB Challenge.md",
+                "file": "Machines Solutions/Facts HTB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PHP Unserialization for RCE - POP Restaurant HTB Challenge"
+              "title": "Facts HTB"
+            }
+          },
+          {
+            "id": "20e7b78419ab94db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machines Solutions/Imagery HTB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Imagery HTB"
+            }
+          },
+          {
+            "id": "ff2e9d77905b23a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lucky Dice HTB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lucky Dice HTB"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,53 +216,53 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a89fa025335bc462",
+  "active": "ff2e9d77905b23a2",
   "lastOpenFiles": [
-    "Random/XML External Entity Attack Payload.md",
-    "Random/PHP Unserialization for RCE - POP Restaurant HTB Challenge.md",
-    "Random/Cookie Stealing Via Stored XSS.md",
-    "README.md",
+    "Machines Solutions/Imagery HTB.md",
+    "Lucky Dice HTB.md",
+    "Machines Solutions/TensorFlow RCE - Artificial HTB.md",
+    "Machines Solutions/Silentium - Privilege Escalation.md",
+    "Machines Solutions/Facts HTB.md",
     "OverTheWire/Natas Writeup.md",
+    "Random/PHP Unserialization for RCE - POP Restaurant HTB Challenge.md",
+    "Random/Topology HTB (retired).md",
+    "Random/Cookie Stealing Via Stored XSS.md",
+    "Random/Cache Poisoning.md",
+    "Random/XML External Entity Attack Payload.md",
+    "Privilege Escalation/Linux Capabilities.md",
     "OverTheWire/Bandit Writeup.md",
     "OverTheWire/Leviathan Writeup.md",
-    "Privilege Escalation/Linux Capabilities.md",
-    "Cheatsheets/Reverse Shells.md",
-    "Challenges Solutions/Micro Storage HTB.md",
-    "Challenges Solutions/Not Posixtive solve.md",
-    "PJ/Pasted image 20260109194206.png",
-    "PJ/Pasted image 20260109194019.png",
-    "PJ/Pasted image 20260109193924.png",
-    "Privilege Escalation/Linux Privilege Escalation Commands - HTB Academy Cheasheet.md",
-    "Privilege Escalation/Linux_Privilege_Escalation_Module_Cheat_Sheet.pdf",
-    "Privilege Escalation/Windows Privilege Escalation.md",
-    "Privilege Escalation/Escaping Restricted Shells.md",
-    "Excalidraw/Drawing 2026-01-09 18.42.25.excalidraw.md",
-    "CVEs/CVE-2020-7384.md",
-    "CVEs/CVE-2022-24439 PoC.md",
-    "Challenges Solutions/Compressor HTB.md",
-    "Excalidraw",
-    "Active Directory/ACL ( Access Control List).md",
-    "Random/3DES Decryption.md",
-    "Privilege Escalation/LD_PRELOAD Exploitation.md",
-    "Privilege Escalation/Automated Enumeration Tools.md",
-    "Machines Solutions/TensorFlow RCE - Artificial HTB.md",
-    "Machines Solutions/HackNet Box - HTB.md",
     "Machines Solutions/Conversor - HTB.md",
-    "Machines Solutions/Imagery HTB.md",
+    "Machines Solutions/Eighteen HTB.md",
+    "Machines Solutions/Signed HTB (Windows Machine).md",
+    "Machines Solutions/Pterodactyl HTB.md",
+    "Machines Solutions/HackNet Box - HTB.md",
+    "WingData HTB.md",
+    "PJ/Pasted image 20260211033640.png",
+    "Random/Reverse Shell.md",
+    "Random/grafana2 hash.md",
+    "Random/Brute Forcing.md",
+    "Random/BurpSuite Intruder Simulation.md",
+    "Random/3DES Decryption.md",
+    "Challenges Solutions/CDNio solve.md",
+    "PJ/Screenshot 2026-02-01 205316.png",
+    "PJ/Pasted image 20260109194206.png",
+    "PJ/Pasted image 20260201205415.png",
+    "PJ/Pasted image 20260201211310.png",
+    "PJ/Pasted image 20260201210440.png",
+    "PJ/Screenshot 2026-02-01 210510.png",
+    "PJ/Pasted image 20260109193924.png",
+    "PJ/Pasted image 20260109194019.png",
+    "PJ/Pasted image 20260122143335.png",
+    "Excalidraw",
+    "Untitled",
+    "Privilege Escalation/Linux_Privilege_Escalation_Module_Cheat_Sheet.pdf",
     "Active Directory",
     "Privilege Escalation",
     "PJ/Reverse Shell Cheat Sheet _ pentestmonkey.pdf",
     "PJ/SQL Injection Cheat Sheet - GeeksforGeeks.pdf",
-    "PJ/Pasted image 20251231050403.png",
-    "PJ/Pasted image 20251231050215.png",
-    "PJ/Pasted image 20251231050146.png",
-    "PJ/Pasted image 20251231043951.png",
     "Random",
     "Cheatsheets",
-    "CVEs",
-    "Machines Solutions",
-    "PJ/Pasted image 20251231013448.png",
-    "PJ/Pasted image 20251231012934.png",
-    "PJ/Pasted image 20251231012837.png"
+    "CVEs"
   ]
 }

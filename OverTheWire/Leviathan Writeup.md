@@ -10,13 +10,13 @@ Using ``ltrace`` we can find the program uses `strcmp` to check the password
 We find the ``strcmp`` function indeed using ``strings``
 ![[Pasted image 20251119232657.png]]
 We find here that the password is `sex`
-After the check is complete we gain privilege to become ``leviathan2`` thus we can get the password from `/etc/leviathan_pass/leviathan2`  as indicated in the instructions
+After the check is complete we gain privilege to become ``leviathan2`` thus we can get the password from `/etc/leviathan_pass/leviathan2` as indicated in the instructions
 
 Password: NsN1HwFoyN
 
 ## levi 3:
-Using ltrace with a valid file we can pinpoint the exploit: in snprintf if we input two files seperated by a space only the first one is read.
-So to open the password file, we create a file containing a space, the asscoiate the first word of that name with a symbolic link to the password file so when we open the file with the space the access function checks the whole name and bypass the restriction on the password file
+Using `ltrace` with a valid file we can pinpoint the exploit: in `snprintf` if we input two files seperated by a space only the first one is read.
+So to open the password file, we create a file containing a space, then associate the first word of that name with a symbolic link to the password file so when we open the file with the space the access function checks the whole name and bypass the restriction on the password file
 
 ![[Pasted image 20251120005806.png]]
 
@@ -29,7 +29,7 @@ Password: f0n8h2iWLP
 ## levi 4:
 ![[Pasted image 20251120010700.png]]
 
-After some testing we figured that the password is ``snlprintf`` as we can see in the last strcmp 
+After some testing we figured that the password is ``snlprintf`` as we can see in the last `strcmp`
 ![[Pasted image 20251120011118.png]]
 
 Password: WG1egElCvO

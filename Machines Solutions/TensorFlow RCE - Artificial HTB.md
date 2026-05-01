@@ -39,4 +39,4 @@
    model.predict([[1]])
    ```
 
-4. ✅ You get a **reverse shell** on your machine (start `nc -lvnp 4444` beforehand).
+4. You get a **reverse shell** on your machine (start `nc -lvnp 4444` beforehand).

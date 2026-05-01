@@ -1,6 +1,6 @@
 
 We change the username to have the ssti payload: {{users.values}}
-this is the automated exploit for the ssti in ndjango in the likes route, our user name appears blank in a post that where we do the injection to retrieve the crendentials
+this is the automated exploit for the ssti in django in the likes route, our user name appears blank in a post that where we do the injection to retrieve the crendentials
 
 ```python
 
