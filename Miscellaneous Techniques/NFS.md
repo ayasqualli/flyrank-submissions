@@ -1,0 +1,11 @@
+f `tcpdump` is installed, unprivileged users may be able to capture network traffic, including, in some cases, credentials passed in cleartext. Several tools exist, such as [net-creds](https://github.com/DanMcInerney/net-creds) and [PCredz](https://github.com/lgandx/PCredz) that can be used to examine data being passed on the wire. This may result in capturing sensitive information such as credit card numbers and SNMP community strings. It may also be possible to capture Net-NTLMv2, SMBv2, or Kerberos hashes, which could be subjected to an offline brute force attack to reveal the plaintext password. Cleartext protocols such as HTTP, FTP, POP, IMAP, telnet, or SMTP may contain credentials that could be reused to escalate privileges on the host.
+
+## Weak NFS Privileges
+
+Network File System (NFS) allows users to access shared files or directories over the network hosted on Unix/Linux systems. NFS uses TCP/UDP port 2049. Any accessible mounts can be listed remotely by issuing the command `showmount -e`, which lists the NFS server's export list (or the access control list for filesystems) that NFS clients.
+![](../Attachements/Pasted%20image%2020260621233432.png)
+
+
+We can use a [SETUID Script](SETUID%20Script.md) for the privilege escalation
+![](../Attachements/Pasted%20image%2020260622001023.png)
+When we switch back to the host's low privileged session, we can execute the binary and obtain a root shell.

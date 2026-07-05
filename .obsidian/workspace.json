@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "df7bf14c13d759a4",
+        "id": "4399c2fb0ec21117",
         "type": "tabs",
         "children": [
           {
-            "id": "ff24853386d50291",
+            "id": "eb458d6cbbb18cc7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Random/Brute Forcing.md",
-                "mode": "source",
-                "source": false
+                "file": "Machines Solutions/Enigma HTB Writeup.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Brute Forcing"
-            }
-          },
-          {
-            "id": "3aa727a65bc8f47b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machines Solutions/Facts HTB.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Facts HTB"
-            }
-          },
-          {
-            "id": "20e7b78419ab94db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machines Solutions/Imagery HTB.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Imagery HTB"
-            }
-          },
-          {
-            "id": "ff2e9d77905b23a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenges Solutions/Lucky Dice HTB.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lucky Dice HTB"
+              "icon": "lucide-file-text",
+              "title": "Enigma HTB Writeup"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,17 +92,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Challenges Solutions/Lucky Dice HTB.md",
+                "file": "Machines Solutions/Enigma HTB Writeup.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lucky Dice HTB"
+              "title": "Backlinks for Enigma HTB Writeup"
             }
           },
           {
@@ -156,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brute Forcing.md",
+                "file": "Machines Solutions/Enigma HTB Writeup.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Brute Forcing"
+              "title": "Outgoing links from Enigma HTB Writeup"
             }
           },
           {
@@ -185,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cURL.md",
+                "file": "Machines Solutions/Enigma HTB Writeup.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cURL"
+              "title": "Outline of Enigma HTB Writeup"
             }
           }
         ]
@@ -211,56 +166,57 @@
       "obsidian42-brat:BRAT": false,
       "github-sync:Sync with Remote": false,
       "daily-notes:Open today's daily note": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "print:Print note": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "ff2e9d77905b23a2",
+  "active": "eb458d6cbbb18cc7",
   "lastOpenFiles": [
-    "README.md",
-    "Challenges Solutions/Lucky Dice HTB.md",
-    "Random/Reverse Shell.md",
-    "Random/grafana2 hash.md",
-    "Random/Brute Forcing.md",
-    "Random/BurpSuite Intruder Simulation.md",
-    "Random/PHP Unserialization for RCE - POP Restaurant HTB Challenge.md",
-    "Random/3DES Decryption.md",
-    "Random/XML External Entity Attack Payload.md",
-    "Random/Topology HTB (retired).md",
-    "Random/Cache Poisoning.md",
-    "Random/Cookie Stealing Via Stored XSS.md",
-    "Privilege Escalation/LD_PRELOAD Exploitation.md",
-    "Privilege Escalation/Automated Enumeration Tools.md",
-    "Privilege Escalation/Windows Privilege Escalation.md",
-    "Privilege Escalation/Linux Privilege Escalation Commands - HTB Academy Cheasheet.md",
-    "Privilege Escalation/Escaping Restricted Shells.md",
-    "Privilege Escalation/Linux Capabilities.md",
-    "Machines Solutions/Conversor - HTB.md",
-    "Machines Solutions/HackNet Box - HTB.md",
-    "Machines Solutions/Imagery HTB.md",
-    "Machines Solutions/TensorFlow RCE - Artificial HTB.md",
-    "Machines Solutions/Silentium - Privilege Escalation.md",
-    "Machines Solutions/Eighteen HTB.md",
+    "Machines Solutions/Enigma - HTB.md",
+    "OverTheWire/Natas Writeup.md",
+    "OverTheWire/natas-scripts/natas30.py",
+    "OverTheWire/natas-scripts/natas29fixed.py",
+    "OverTheWire/natas-scripts/natas29.py",
+    "OverTheWire/natas-scripts/natas26.php",
+    "OverTheWire/natas-scripts/natas26.py",
+    "OverTheWire/natas-scripts/natas17.py",
+    "OverTheWire/natas-scripts/natas18.py",
+    "OverTheWire/natas-scripts/natas16.py",
+    "OverTheWire/natas-scripts/natas11.py",
+    "OverTheWire/Leviathan Writeup.md",
+    "OverTheWire/Bandit Writeup.md",
+    "OverTheWire/natas-scripts/natas13.jpeg",
+    "OverTheWire/natas-scripts/natas34.php",
+    "OverTheWire/natas/natas13.jpeg",
+    "Attachements/Pasted image 20260630002732.png",
+    "Attachements/Pasted image 20260630002846.png",
+    "Attachements/Pasted image 20260630002955.png",
+    "Attachements/Pasted image 20260630003005.png",
+    "Attachements/Pasted image 20260630003016.png",
+    "Attachements/Pasted image 20260630003030.png",
+    "Attachements/Pasted image 20260630003041.png",
+    "Attachements/Pasted image 20260630002637.png",
+    "Screens.md",
     "Machines Solutions/Facts HTB.md",
     "Machines Solutions/Signed HTB (Windows Machine).md",
-    "Attachements/Pasted image 20260201211310.png",
-    "Attachements/Pasted image 20260211033640.png",
-    "Attachements/Screenshot 2026-02-01 205316.png",
-    "Attachements/Pasted image 20260109194206.png",
-    "PJ/Pasted image 20260201205415.png",
-    "PJ/Pasted image 20260201210440.png",
-    "Attachements/Screenshot 2026-02-01 210510.png",
-    "Attachements/Pasted image 20260109193924.png",
-    "Attachements/Pasted image 20260109194019.png",
-    "Attachements/Pasted image 20260122143335.png",
-    "Excalidraw",
-    "Untitled",
-    "Privilege Escalation/Linux_Privilege_Escalation_Module_Cheat_Sheet.pdf",
-    "Active Directory",
-    "Privilege Escalation",
-    "Attachements/Reverse Shell Cheat Sheet _ pentestmonkey.pdf",
-    "Attachements/SQL Injection Cheat Sheet - GeeksforGeeks.pdf",
-    "Random",
-    "Cheatsheets",
-    "CVEs"
+    "Machines Solutions/Pterodactyl HTB.md",
+    "Machines Solutions/Eighteen HTB.md",
+    "Machines Solutions/TensorFlow RCE - Artificial HTB.md",
+    "Miscellaneous Techniques/NFS.md",
+    "Privilege Escalation/Kernel Exploit - Dirty COW PoC.md",
+    "Privilege Escalation/LD_PRELOAD Exploitation.md",
+    "Miscellaneous Techniques/Tmux Session Abuse.md",
+    "Miscellaneous Techniques/SETUID Script.md",
+    "Privilege Escalation/logrotten Privilege Escalation.md",
+    "Random/Kubernetes.md",
+    "Privilege Escalation/Escaping Restricted Shells.md",
+    "Linux Containers.md",
+    "Privilege Escalation/Linux Privilege Escalation Commands - HTB Academy Cheasheet.md",
+    "Privilege Escalation/Windows Privilege Escalation.md",
+    "Privilege Escalation/Automated Enumeration Tools.md",
+    "Privilege Escalation/Linux Capabilities.md",
+    "Privilege Escalation/Screen Privilege Escalation PoC.md",
+    "Machines Solutions/Checkpoint HTB.md"
   ]
 }

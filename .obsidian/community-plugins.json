@@ -11,5 +11,7 @@
   "github-sync",
   "obsidian-excalidraw-plugin",
   "wikilinks-to-mdlinks-obsidian",
-  "links"
+  "links",
+  "print",
+  "vscode-editor"
 ]

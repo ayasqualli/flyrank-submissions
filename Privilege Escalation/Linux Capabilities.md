@@ -28,3 +28,12 @@ Some capabilities, such as `cap_sys_admin`, which allows an executable to perfo
 
 ### Privilege Escalation: 
 ![../Attachements/Pasted image 20260109194019.png](<../Attachements/Pasted image 20260109194019.png>)
+
+When a binary is executed with capabilities, it can perform the actions that the capabilities allow. However, it will not be able to perform any actions not allowed by the capabilities. This allows for more fine-grained control over the binary's privileges and can help prevent security vulnerabilities and unauthorized access to sensitive information.
+
+When using the `setcap` command to set capabilities for an executable in Linux, we need to specify the capability we want to set and the value we want to assign. The values we use will depend on the specific capability we are setting and the privileges we want to grant to the executable.
+
+Here are some examples of values that we can use with the `setcap` command, along with a brief description of what they do:![](../Attachements/Pasted%20image%2020260620124612.png)
+
+Several Linux capabilities can be used to escalate a user's privileges to `root`, including:
+![](../Attachements/Pasted%20image%2020260620124638.png)
