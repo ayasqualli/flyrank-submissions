@@ -1,7 +1,9 @@
 {
-  "remoteURL": "https://github.com/ayasqualli/Notes-Sync.git",
+  "remoteURL": "https://github.com/ayasqualli/flyrank-submissions.git",
   "gitLocation": "",
   "syncinterval": 0,
   "isSyncOnLoad": true,
-  "checkStatusOnLoad": true
+  "checkStatusOnLoad": true,
+  "noticeLevel": "ALL",
+  "showSyncSuccessNotice": true
 }
