@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 1  - Backend AI Engineering Assignment.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Week 1  - Backend AI Engineering Assignment"
+              "title": "README"
             }
           }
         ]
@@ -198,8 +198,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0c4fa952c2441bcb",
+  "active": "623ff90f3cc853c9",
   "lastOpenFiles": [
+    "Week 1  - Backend AI Engineering Assignment.md",
     "Screens.md",
     "Random/grafana2 hash.md",
     "Random/XML External Entity Attack Payload.md",
@@ -236,7 +237,6 @@
     "OverTheWire/Leviathan Writeup.md",
     "OverTheWire/Bandit Writeup.md",
     "Miscellaneous Techniques/Tmux Session Abuse.md",
-    "Miscellaneous Techniques/SETUID Script.md",
     "Attachements/Screenshot 2026-02-01 210510.png",
     "Attachements/Screenshot 2026-02-01 210439.png",
     "Attachements/Screenshot 2026-02-01 205316.png",
