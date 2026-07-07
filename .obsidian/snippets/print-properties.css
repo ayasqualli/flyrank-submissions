@@ -1,0 +1,8 @@
+@media print {
+  .metadata-container, 
+  .frontmatter,
+  .inline-properties {
+    display: block !important;
+    visibility: visible !important;
+  }
+}
