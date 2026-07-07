@@ -1,1 +1,0 @@
-![../Attachements/Pasted image 20260122143335.png](<../Attachements/Pasted image 20260122143335.png>)

@@ -1,2 +1,0 @@
-- List of available Windows privileges: https://docs.microsoft.com/en-us/windows/win32/secauthz/privilege-constants
-- List of Exploitable Privileges: https://github.com/gtworek/Priv2Admin
