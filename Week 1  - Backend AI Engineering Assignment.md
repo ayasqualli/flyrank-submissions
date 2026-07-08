@@ -99,31 +99,32 @@ flowchart TD
 10. Tools over indexed notes
 
 
+The service is provider-swappable through Portkey. The submitted demo uses Gemini because Claude credits were unavailable, but the code path supports swapping to Claude by changing AI_MODEL to @anthropic-slug/claude-...
 
 # Testing checklist
 
 You need these tests:
 Webhook security:
-- [ ] accepts valid GitHub signature
-- [ ] rejects invalid signature
-- [ ] rejects missing signature
-- [ ] ignores non-push event
+- [x] accepts valid GitHub signature ✅ 2026-07-08
+- [x] rejects invalid signature ✅ 2026-07-08
+- [x] rejects missing signature ✅ 2026-07-08
+- [x] ignores non-push event ✅ 2026-07-08
 
 Sync:
-- [ ] clones repo if vault-cache does not exist
-- [ ] pulls repo if vault-cache exists
-- [ ] indexes only .md files
-- [ ] ignores `.obsidian` and attachments
+- [x] clones repo if vault-cache does not exist ✅ 2026-07-08
+- [x] pulls repo if vault-cache exists ✅ 2026-07-08
+- [x] indexes only .md files ✅ 2026-07-08
+- [x] ignores `.obsidian` and attachments ✅ 2026-07-08
 
 Indexing:
-- [ ] chunks Markdown by headings
-- [ ] skips unchanged files by hash
-- [ ] updates changed files
+- [x] chunks Markdown by headings ✅ 2026-07-08
+- [x] skips unchanged files by hash ✅ 2026-07-08
+- [x] updates changed files ✅ 2026-07-08
 
 AI gate later:
 - [ ] final Claude output validates with Zod
 - [ ] forced error path works
-- [ ] malicious generated SQL is blocked (SQLi)
+- [x] malicious generated SQL is blocked (SQLi) ✅ 2026-07-08
 * Fun fact: As my last name abreviation is SQL and i'm the Web Exploitation player in my ctf team, my nickname is SQL injection
 
 ---
@@ -144,3 +145,10 @@ I push to my Obsidian vault GitHub repo.GitHub calls my webhook.My service verif
 ```
 
 After that, adding Claude + Portkey tools becomes clean because the data layer is already alive.
+
+![[Attachments/Week 1  - Backend AI Engineering Assignment-1783526288498.webp]]webhook ping is good
+
+testing the API is good ![[Attachments/Week 1  - Backend AI Engineering Assignment-1783528093955.webp]]
+
+
+Sync: ok ![[Attachments/Week 1  - Backend AI Engineering Assignment-1783530560015.webp]]

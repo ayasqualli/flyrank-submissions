@@ -1,7 +1,6 @@
 {
   "textFontFamily": "Inter",
   "enabledCssSnippets": [
-    "print-properties",
-    "mermaid-responsive"
+    "print-properties"
   ]
 }

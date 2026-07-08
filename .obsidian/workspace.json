@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Resources/Portkey Config 101 Doc.pdf"
+                "file": "Week 1/Week 1  - Backend AI Engineering Assignment.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Portkey Config 101 Doc"
+              "title": "Week 1  - Backend AI Engineering Assignment"
             }
           }
         ]
@@ -188,11 +188,21 @@
   },
   "active": "0c4fa952c2441bcb",
   "lastOpenFiles": [
-    "Resources/Zod Cheat Sheet.pdf",
-    "Resources/Portkey Config 101 Doc.pdf",
     "Week 1  - Backend AI Engineering Assignment.md",
+    "Week 1/Week 1  - Backend AI Engineering Assignment.pdf",
+    "Week 1/week1-submission-1-be.pdf",
+    "Week 1/week1-submission-1.pdf",
+    "Week 1/week1-submission-2.pdf",
+    "Attachments/Week 1  - Backend AI Engineering Assignment-1783530560015.webp",
+    "Attachments/Week 1  - Backend AI Engineering Assignment-1783528093955.webp",
+    "Attachments/Week 1  - Backend AI Engineering Assignment-1783526288498.webp",
+    "Resources/Zod Cheat Sheet.pdf",
+    "Resources/TypeScript Types.pdf",
+    "Resources/TypeScript Interfaces.pdf",
+    "Resources/TypeScript Control Flow Analysis.pdf",
+    "Resources/TypeScript Classes.pdf",
+    "Resources/Portkey Config 101 Doc.pdf",
     "Screens.md",
-    "Resources",
     "Assignments/Week 1 - Assignment 1.md",
     "Assignments/Week 1 - Assignment 2.md",
     "README.md",
@@ -207,23 +217,15 @@
     "Random/Cookie Stealing Via Stored XSS.md",
     "Random/Brute Forcing.md",
     "Random/3DES Decryption.md",
-    "Random",
     "Privilege Escalation/logrotten Privilege Escalation.md",
     "Privilege Escalation/Windows Privilege Escalation.md",
     "Privilege Escalation/Screen Privilege Escalation PoC.md",
-    "Privilege Escalation/Linux_Privilege_Escalation_Module_Cheat_Sheet.pdf",
     "Privilege Escalation/Linux Privilege Escalation Commands - HTB Academy Cheasheet.md",
     "Privilege Escalation/Linux Capabilities.md",
     "Privilege Escalation/Kernel Exploit - Dirty COW PoC.md",
     "Privilege Escalation/LD_PRELOAD Exploitation.md",
     "Privilege Escalation/Escaping Restricted Shells.md",
     "Privilege Escalation/Automated Enumeration Tools.md",
-    "Privilege Escalation",
-    "OverTheWire/natas-scripts/test.phar",
-    "OverTheWire/natas-scripts/sample.csv",
-    "OverTheWire/natas-scripts/pwn.php",
-    "OverTheWire/natas-scripts/natas5.py",
-    "OverTheWire/natas-scripts/natas34phar.php",
     "OverTheWire/natas-scripts/natas13.jpeg",
     "Attachements/Screenshot 2026-02-01 210510.png",
     "Attachements/Screenshot 2026-02-01 210439.png",
@@ -231,9 +233,6 @@
     "Attachements/Screenshot 2025-11-30 201952.png",
     "Attachements/Pasted image 20260706212912.png",
     "Attachements/Pasted image 20260706212406.png",
-    "Attachements/Pasted image 20260706212312.png",
-    "Attachements/Pasted image 20260706211654.png",
-    "Attachements/Pasted image 20260706211616.png",
     "Untitled.canvas"
   ]
 }
