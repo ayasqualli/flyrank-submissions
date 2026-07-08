@@ -5,9 +5,16 @@ week: 1
 phase: Setup
 status: 🔴 Ongoing
 tags:
+  - api
+  - portkey
+  - runpod
+  - zod
+  - pydantic
+  - validation
 date: 2026-07-07
+name: "The AI core : calling the model like an engineer"
 ---
-## Main Specs and Requierements
+## Main Specs and Requirements
 
 ```mermaid
 flowchart TD  
@@ -84,11 +91,11 @@ flowchart TD
 2. GitHub webhook endpoint
 3. Signature verification
 4. Sync job queue
-5. Vault clone / pull
+5. Vault clone `/ pull`
 6. Markdown changed-file detection
 7. SQLite indexing
-8. /api/index/status
-9. /api/ask with Claude + Portkey
+8. `/api/index/status`
+9. `/api/ask` with Claude + Portkey
 10. Tools over indexed notes
 
 
@@ -106,7 +113,7 @@ Sync:
 - [ ] clones repo if vault-cache does not exist
 - [ ] pulls repo if vault-cache exists
 - [ ] indexes only .md files
-- [ ] ignores .obsidian and attachments
+- [ ] ignores `.obsidian` and attachments
 
 Indexing:
 - [ ] chunks Markdown by headings
@@ -123,10 +130,11 @@ AI gate later:
 
 # Best MVP target
 
-For your next milestone, build only this:
+For your next milestone, we will try to focus on building only this:
 
 ```
-POST /webhooks/githubGET /api/index/statusPOST /api/syncSQLite Markdown index
+* POST /webhooks/github | GET /api/index/status | POST /api/syncSQLite 
+* Markdown index
 ```
 
 Then prove:

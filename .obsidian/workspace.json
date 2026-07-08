@@ -11,24 +11,12 @@
             "id": "0c4fa952c2441bcb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Resources/Portkey Config 101 Doc.pdf"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-file-text",
+              "title": "Portkey Config 101 Doc"
             }
           }
         ]
@@ -198,10 +186,16 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "623ff90f3cc853c9",
+  "active": "0c4fa952c2441bcb",
   "lastOpenFiles": [
+    "Resources/Zod Cheat Sheet.pdf",
+    "Resources/Portkey Config 101 Doc.pdf",
     "Week 1  - Backend AI Engineering Assignment.md",
     "Screens.md",
+    "Resources",
+    "Assignments/Week 1 - Assignment 1.md",
+    "Assignments/Week 1 - Assignment 2.md",
+    "README.md",
     "Random/grafana2 hash.md",
     "Random/XML External Entity Attack Payload.md",
     "Random/Topology HTB (retired).md",
@@ -230,13 +224,7 @@
     "OverTheWire/natas-scripts/pwn.php",
     "OverTheWire/natas-scripts/natas5.py",
     "OverTheWire/natas-scripts/natas34phar.php",
-    "OverTheWire/natas-scripts/natas34.php",
-    "OverTheWire/natas-scripts/natas30.py",
     "OverTheWire/natas-scripts/natas13.jpeg",
-    "OverTheWire/Natas Writeup.md",
-    "OverTheWire/Leviathan Writeup.md",
-    "OverTheWire/Bandit Writeup.md",
-    "Miscellaneous Techniques/Tmux Session Abuse.md",
     "Attachements/Screenshot 2026-02-01 210510.png",
     "Attachements/Screenshot 2026-02-01 210439.png",
     "Attachements/Screenshot 2026-02-01 205316.png",
