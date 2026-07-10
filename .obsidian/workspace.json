@@ -18,8 +18,33 @@
               "icon": "lucide-file-text",
               "title": "Week 1  - Backend AI Engineering Assignment"
             }
+          },
+          {
+            "id": "c708920030c1ee25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Week 1 - Assignment 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Week 1 - Assignment 3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,9 +211,17 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0c4fa952c2441bcb",
+  "active": "623ff90f3cc853c9",
   "lastOpenFiles": [
-    "Week 1  - Backend AI Engineering Assignment.md",
+    "Week 1/week1-submission-3.pdf",
+    "Attachments/Week 1 - Assignment 3-1783687814203.webp",
+    "Attachments/Week 1 - Assignment 3-1783687750250.webp",
+    "Attachments/Week 1 - Assignment 3-1783687667001.webp",
+    "Attachments/Week 1 - Assignment 3-1783687663194.webp",
+    "Assignments/Week 1  - Backend AI Engineering Assignment.md",
+    "Assignments/Week 1 - Assignment 2.md",
+    "Assignments/Week 1 - Assignment 1.md",
+    "Week 1 - Assignment 3.md",
     "Week 1/Week 1  - Backend AI Engineering Assignment.pdf",
     "Week 1/week1-submission-1-be.pdf",
     "Week 1/week1-submission-1.pdf",
@@ -203,8 +236,6 @@
     "Resources/TypeScript Classes.pdf",
     "Resources/Portkey Config 101 Doc.pdf",
     "Screens.md",
-    "Assignments/Week 1 - Assignment 1.md",
-    "Assignments/Week 1 - Assignment 2.md",
     "README.md",
     "Random/grafana2 hash.md",
     "Random/XML External Entity Attack Payload.md",
@@ -225,14 +256,9 @@
     "Privilege Escalation/Kernel Exploit - Dirty COW PoC.md",
     "Privilege Escalation/LD_PRELOAD Exploitation.md",
     "Privilege Escalation/Escaping Restricted Shells.md",
-    "Privilege Escalation/Automated Enumeration Tools.md",
     "OverTheWire/natas-scripts/natas13.jpeg",
     "Attachements/Screenshot 2026-02-01 210510.png",
     "Attachements/Screenshot 2026-02-01 210439.png",
-    "Attachements/Screenshot 2026-02-01 205316.png",
-    "Attachements/Screenshot 2025-11-30 201952.png",
-    "Attachements/Pasted image 20260706212912.png",
-    "Attachements/Pasted image 20260706212406.png",
     "Untitled.canvas"
   ]
 }
