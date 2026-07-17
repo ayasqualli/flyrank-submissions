@@ -3,10 +3,13 @@ type: Assignment
 track: Backend AI Engineering
 week: 2
 phase: Foundations
-status: 🔴 Ongoing
+status: 🟢 Complete
 tags:
   - api
   - crud
+  - concurrency
+  - swagger-ui
+  - golang
 date: 14/07/2026
 name: Build your first CRUD API
 code: BE-01
@@ -80,6 +83,7 @@ In a second terminal:
 
 ```
 
+![[Attachments/Week 2 - Backend AI Enginnering Assignment-1784321086769.webp]]
 Then verify:
 
 - `GET /tasks/99` returns 404 and JSON.
@@ -92,7 +96,7 @@ Then verify:
 
 - After creating tasks, restarting the process restores only the three seed tasks.
 
-
+![[Attachments/Week 2 - Backend AI Enginnering Assignment-1784320490042.webp]]
 ## Mortality experiment
 
 Tasks are stored in a Go slice inside the running process. Restarting the server creates a new store from `seedTasks`, so anything created or updated during the previous run disappears. A database will solve this persistence problem in the next stage of the backend track.

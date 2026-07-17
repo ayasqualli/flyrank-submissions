@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 2 - Backend AI Enginnering Assignment.md",
+                "file": "Assignments/Week 3 - Backend AI Engineering Assignment.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Week 2 - Backend AI Enginnering Assignment"
+              "title": "Week 3 - Backend AI Engineering Assignment"
+            }
+          },
+          {
+            "id": "792468e9f84bda87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Assignments/Week 3  - Assignment 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Week 3  - Assignment 1"
+            }
+          },
+          {
+            "id": "15ac822170eff4a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Assignments/Week 3 - Assignment 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Week 3 - Assignment 2"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,41 +247,44 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e00c15b4e6bb8935",
+  "active": "623ff90f3cc853c9",
   "lastOpenFiles": [
-    "Week 3 - Backend AI Engineering Assignment.md",
-    "Week 2 - Backend AI Enginnering Assignment.md",
+    "Week 3/week3-submission-2.pdf",
+    "Assignments/Week 3  - Assignment 1.md",
+    "Assignments/Week 3 - Assignment 2.md",
+    "Week 3/week3-submission-1.pdf",
+    "Assignments/Week 2 - Assignment 3.md",
+    "Assignments/Week 2 - Backend AI Enginnering Assignment.md",
+    "Assignments/Week 3 - Backend AI Engineering Assignment.md",
+    "_templates/assignment-template.md.md",
+    "Week 3",
+    "Week 2/week2-submission-be-01.pdf",
+    "Week 2/week2-submission-1.pdf",
+    "Week 2/week2-submission-3.pdf",
+    "Week 2/week2-submission-2.pdf",
+    "README.md",
+    "Attachments/Week 2 - Backend AI Enginnering Assignment-1784321086769.webp",
+    "Attachments/Week 2 - Backend AI Enginnering Assignment-1784320490042.webp",
     "Resources/Golang Cheat Sheet.pdf",
     "Assignments/Week 2 - Assignment 1.md",
     "Assignments/Week 2 - Assignment 2.md",
-    "Assignments/Week 2 - Assignment 3.md",
     "Assignments/Week 1 - Backend AI Engineering Assignment.md",
     "Assignments/Week 1  - Backend AI Engineering Assignment.md",
-    "Week 2/week2-submission-3.pdf",
-    "Week 2/week2-submission-2.pdf",
-    "_templates/assignment-template.md.md",
-    "Week 2/week2-submission-1.pdf",
     "Assignments/Week 1 - Assignment 1.md",
     "Assignments/Week 1 - Assignment 2.md",
     "Assignments/Week 1 - Assignment 3.md",
-    "Untitled",
     "Week 2",
     "Week 1/week1-submission-be-01.pdf",
     "Attachments/Week 1 - Backend AI Engineering Assignment-1783704181775.webp",
     "Attachments/Week 1 - Backend AI Engineering Assignment-1783704103598.webp",
     "Attachments/Week 1 - Backend AI Engineering Assignment-1783704088036.webp",
     "Week 1/week1-submission-3.pdf",
-    "Week 1/Week 1  - Backend AI Engineering Assignment.pdf",
-    "Week 1/week1-submission-2.pdf",
     "Attachments/Week 1 - Assignment 3-1783687814203.webp",
     "Attachments/Week 1 - Assignment 3-1783687750250.webp",
     "Attachments/Week 1 - Assignment 3-1783687667001.webp",
     "Attachments/Week 1 - Assignment 3-1783687663194.webp",
     "Attachments/Week 1  - Backend AI Engineering Assignment-1783530560015.webp",
-    "Attachments/Week 1  - Backend AI Engineering Assignment-1783528093955.webp",
-    "Attachments/Week 1  - Backend AI Engineering Assignment-1783526288498.webp",
     "Screens.md",
-    "README.md",
     "Random/grafana2 hash.md",
     "Random/XML External Entity Attack Payload.md",
     "Random/Topology HTB (retired).md",
@@ -243,8 +295,6 @@
     "Random/Cache Poisoning.md",
     "Random/Cookie Stealing Via Stored XSS.md",
     "Random/Brute Forcing.md",
-    "Random/3DES Decryption.md",
-    "Privilege Escalation/logrotten Privilege Escalation.md",
     "Untitled.canvas"
   ]
 }
