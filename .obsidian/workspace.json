@@ -4,35 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "3c43221f4301e205",
+        "id": "3f8f9df40d5567a6",
         "type": "tabs",
         "children": [
           {
-            "id": "0c4fa952c2441bcb",
+            "id": "e00c15b4e6bb8935",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Week 1/Week 1  - Backend AI Engineering Assignment.pdf"
+                "file": "Week 2 - Backend AI Enginnering Assignment.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Week 1  - Backend AI Engineering Assignment"
-            }
-          },
-          {
-            "id": "c708920030c1ee25",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Week 1/week1-submission-3.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "week1-submission-3"
+              "icon": "lucide-file",
+              "title": "Week 2 - Backend AI Enginnering Assignment"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,29 +198,39 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c708920030c1ee25",
+  "active": "e00c15b4e6bb8935",
   "lastOpenFiles": [
-    "Week 1/week1-submission-2.pdf",
-    "Assignments/Week 1 - Assignment 2.md",
-    "Assignments/Week 1 - Assignment 1.md",
+    "Week 3 - Backend AI Engineering Assignment.md",
+    "Week 2 - Backend AI Enginnering Assignment.md",
+    "Resources/Golang Cheat Sheet.pdf",
+    "Assignments/Week 2 - Assignment 1.md",
+    "Assignments/Week 2 - Assignment 2.md",
+    "Assignments/Week 2 - Assignment 3.md",
+    "Assignments/Week 1 - Backend AI Engineering Assignment.md",
     "Assignments/Week 1  - Backend AI Engineering Assignment.md",
-    "Week 1 - Assignment 3.md",
+    "Week 2/week2-submission-3.pdf",
+    "Week 2/week2-submission-2.pdf",
+    "_templates/assignment-template.md.md",
+    "Week 2/week2-submission-1.pdf",
+    "Assignments/Week 1 - Assignment 1.md",
+    "Assignments/Week 1 - Assignment 2.md",
+    "Assignments/Week 1 - Assignment 3.md",
+    "Untitled",
+    "Week 2",
+    "Week 1/week1-submission-be-01.pdf",
+    "Attachments/Week 1 - Backend AI Engineering Assignment-1783704181775.webp",
+    "Attachments/Week 1 - Backend AI Engineering Assignment-1783704103598.webp",
+    "Attachments/Week 1 - Backend AI Engineering Assignment-1783704088036.webp",
     "Week 1/week1-submission-3.pdf",
+    "Week 1/Week 1  - Backend AI Engineering Assignment.pdf",
+    "Week 1/week1-submission-2.pdf",
     "Attachments/Week 1 - Assignment 3-1783687814203.webp",
     "Attachments/Week 1 - Assignment 3-1783687750250.webp",
     "Attachments/Week 1 - Assignment 3-1783687667001.webp",
     "Attachments/Week 1 - Assignment 3-1783687663194.webp",
-    "Week 1/Week 1  - Backend AI Engineering Assignment.pdf",
-    "Week 1/week1-submission-1-be.pdf",
-    "Week 1/week1-submission-1.pdf",
     "Attachments/Week 1  - Backend AI Engineering Assignment-1783530560015.webp",
     "Attachments/Week 1  - Backend AI Engineering Assignment-1783528093955.webp",
     "Attachments/Week 1  - Backend AI Engineering Assignment-1783526288498.webp",
-    "Resources/Zod Cheat Sheet.pdf",
-    "Resources/TypeScript Types.pdf",
-    "Resources/TypeScript Interfaces.pdf",
-    "Resources/TypeScript Control Flow Analysis.pdf",
-    "Resources/TypeScript Classes.pdf",
     "Screens.md",
     "README.md",
     "Random/grafana2 hash.md",
@@ -236,16 +245,6 @@
     "Random/Brute Forcing.md",
     "Random/3DES Decryption.md",
     "Privilege Escalation/logrotten Privilege Escalation.md",
-    "Privilege Escalation/Windows Privilege Escalation.md",
-    "Privilege Escalation/Screen Privilege Escalation PoC.md",
-    "Privilege Escalation/Linux Privilege Escalation Commands - HTB Academy Cheasheet.md",
-    "Privilege Escalation/Linux Capabilities.md",
-    "Privilege Escalation/Kernel Exploit - Dirty COW PoC.md",
-    "Privilege Escalation/LD_PRELOAD Exploitation.md",
-    "Privilege Escalation/Escaping Restricted Shells.md",
-    "OverTheWire/natas-scripts/natas13.jpeg",
-    "Attachements/Screenshot 2026-02-01 210510.png",
-    "Attachements/Screenshot 2026-02-01 210439.png",
     "Untitled.canvas"
   ]
 }
